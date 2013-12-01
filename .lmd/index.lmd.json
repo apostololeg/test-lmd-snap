@@ -1,0 +1,11 @@
+{
+    "name": "index build",
+    "root": "../js",
+    "output": "index.lmd.js",
+    "modules": {
+        "main": "main.js",
+        "testmodule": "testmodule.js",
+        "snap": "vendor/Snap/index.js"
+    },
+    "main": "main"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "test-lmd-snap",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/truerenton/test-lmd-snap"
+    },
+    "devDependencies": {
+        "lmd": "",
+        "bower": ""
+    },
+    "scripts": {
+        "init": "npm i && bower i",
+        "build": "./node_modules/lmd/bin/lmd build index",
+        "start": "open index.html"
+    }
+}
